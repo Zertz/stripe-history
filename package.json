@@ -1,6 +1,6 @@
 {
   "name": "stripe-history",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Retrieve Stripe account history",
   "main": "index.js",
   "scripts": {
