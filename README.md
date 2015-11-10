@@ -13,9 +13,10 @@ var stripeHistory = require('stripe-history')
 
 stripeHistory({
   secretKey: 'stripe-secret',
-  account: 'stripe-account',
+  account: 'stripe-account',    // optional, useful for Stripe Connect
   from: new Date(2015, 11, 01),
-  to: new Date(2015, 11, 30)
+  to: new Date(2015, 11, 30),
+  available: false              // optional, query available_on instead of created_at
 }, function (err, history) {
   /*
     history: {
