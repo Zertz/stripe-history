@@ -20,29 +20,23 @@ stripeHistory({
 }, function (err, history) {
   /*
     history: {
-      current: {
-        charge_count: 0,
-        charge_amount: 0,
-        refund_count: 0,
-        refund_amount: 0,
-        adjustment_count: 0,
-        adjustment_amount: 0,
-        stripe_fee: 0,
-        application_fee: 0,
-        application_fee_count: 0,
-        application_fee_amount: 0,
-        application_fee_refund_count: 0,
-        application_fee_refund_amount: 0,
-        net_amount: 0,
-        transfer_count: 0,
-        transfer_amount: 0,
-        transfer_failure_count: 0,
-        transfer_failure_amount: 0,
-      },
-      previous: {
-        transfer_amount: 0,
-        net_amount: 0
-      }
+      charge_count: 0,
+      charge_amount: 0,
+      refund_count: 0,
+      refund_amount: 0,
+      adjustment_count: 0,
+      adjustment_amount: 0,
+      stripe_fee: 0,
+      application_fee: 0,
+      application_fee_count: 0,
+      application_fee_amount: 0,
+      application_fee_refund_count: 0,
+      application_fee_refund_amount: 0,
+      net_amount: 0,
+      transfer_count: 0,
+      transfer_amount: 0,
+      transfer_failure_count: 0,
+      transfer_failure_amount: 0,
     }
   */
 })
