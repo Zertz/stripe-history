@@ -20,6 +20,9 @@ stripeHistory({
 }, function (err, history) {
   /*
     history: {
+      data: [{
+        'object': 'balance_transaction'
+      }, ...],
       charge_count: 0,
       charge_amount: 0,
       refund_count: 0,
